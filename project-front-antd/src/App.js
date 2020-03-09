@@ -1,10 +1,12 @@
 import React from "react";
-import Sider from "./menu";
+import Sider from "./Menu";
+import Header from "./Header";
 
 function App() {
   return (
     <div className="App">
-      <Sider></Sider>
+      <Header />
+      <Sider />
     </div>
   );
 }

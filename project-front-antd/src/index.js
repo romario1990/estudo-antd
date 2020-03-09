@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Route, BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
-import Users from "./users";
-import Contact from "./contact";
+import Users from "./Users";
+import Contact from "./Contact";
 const routing = (
   <Router>
     <div>
